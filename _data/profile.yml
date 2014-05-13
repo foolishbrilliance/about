@@ -1,24 +1,24 @@
 image: http://www.gravatar.com/avatar/62ee1838d7e1d873945c25fede216ebc.jpg
 
-social:
-  - service: twitter
-      icon-name: fa-twitter
-      url: http://twitter.com/joech4n
-  - service: 'google-plus'
-      icon-name: fa-google-plus
-      url: https://plus.google.com/u/0/117054244777297268407
-  - service: linkedin
-      icon-name: fa-linkedin
-      url: http://www.linkedin.com/in/joesamchan
-  - service: blog
-      icon-name: fa-rss
+service:
+  - name: twitter
+    icon-name: fa-twitter
+    url: http://twitter.com/joech4n
+  - name: 'google-plus'
+    icon-name: fa-google-plus
+    url: https://plus.google.com/u/0/117054244777297268407
+  - name: linkedin
+    icon-name: fa-linkedin
+    url: http://www.linkedin.com/in/joesamchan
+  - name: blog
+    icon-name: fa-rss
       url: http://blog.joechan.us
-  - service: github
-      icon-name: fa-github
-      url: http://github.com/foolishbrilliance
-  - service: tumblr
-      icon-name: fa-tumblr
-      url: http://blog.joechan.us
-  - service: facebook
-      icon-name: fa-facebook
-      url: http://facebook.com/joesamchan
+  - name: github
+    icon-name: fa-github
+    url: http://github.com/foolishbrilliance
+  - name: tumblr
+    icon-name: fa-tumblr
+    url: http://blog.joechan.us
+  - name: facebook
+    icon-name: fa-facebook
+    url: http://facebook.com/joesamchan
