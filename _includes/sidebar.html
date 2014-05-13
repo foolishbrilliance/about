@@ -27,34 +27,13 @@
       {% endfor %}
     </ul>
     
-    <span class="fa-stack fa-lg">
-      <i class="fa fa-circle fa-stack-2x"></i>
-      <a href="http://twitter.com/joech4n"><i class="fa fa-twitter fa-stack-1x fa-inverse"></i></a>
-    </span>
-    <span class="fa-stack fa-lg">
-      <i class="fa fa-circle fa-stack-2x"></i>
-      <a href="http://facebook.com/joesamchan"><i class="fa fa-facebook fa-stack-1x fa-inverse"></i></a>
-    </span>
-    <span class="fa-stack fa-lg">
-      <i class="fa fa-circle fa-stack-2x"></i>
-      <a href="http://github.com/foolishbrilliance"><i class="fa fa-github fa-stack-1x fa-inverse"></i></a>
-    </span>    
-    <span class="fa-stack fa-lg">
-      <i class="fa fa-circle fa-stack-2x"></i>
-      <a href="http://blog.joechan.us"><i class="fa fa-rss fa-stack-1x fa-inverse"></i></a>
-    </span>
-    <span class="fa-stack fa-lg">
-      <i class="fa fa-circle fa-stack-2x"></i>
-      <a href="https://plus.google.com/u/0/117054244777297268407"><i class="fa fa-google-plus fa-stack-1x fa-inverse"></i></a>
-    </span>
-    <span class="fa-stack fa-lg">
-      <i class="fa fa-circle fa-stack-2x"></i>
-      <a href="http://blog.joechan.us"><i class="fa fa-tumblr fa-stack-1x fa-inverse"></i></a>
-    </span>
+    {% for service in site.data.profile.social %}
       <span class="fa-stack fa-lg">
-      <i class="fa fa-circle fa-stack-2x"></i>
-      <a href="http://www.linkedin.com/in/joesamchan"><i class="fa fa-linkedin fa-stack-1x fa-inverse"></i></a>
-    </span>
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <a href="{{ service.url }}"><i class="fa {{ service.icon-name }} fa-stack-1x fa-inverse"></i></a>
+      </span>
+    {% endfor %}
+    
     <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
   </div>
 </div>
