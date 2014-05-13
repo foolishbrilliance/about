@@ -1,4 +1,4 @@
-image: 'http://www.gravatar.com/avatar/62ee1838d7e1d873945c25fede216ebc.jpg'
+image: http://www.gravatar.com/avatar/62ee1838d7e1d873945c25fede216ebc.jpg
 
 service:
   - name: twitter
