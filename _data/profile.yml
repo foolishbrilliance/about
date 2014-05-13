@@ -12,7 +12,7 @@ service:
     url: http://www.linkedin.com/in/joesamchan
   - name: blog
     icon-name: fa-rss
-      url: http://blog.joechan.us
+    url: http://blog.joechan.us
   - name: github
     icon-name: fa-github
     url: http://github.com/foolishbrilliance
