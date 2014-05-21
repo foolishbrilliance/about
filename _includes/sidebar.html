@@ -38,7 +38,7 @@
         <i class="fa {{ service.icon-name }} fa-stack-1x fa-inverse"></i></a>
       </span>
     {% endfor %}
-    
+    <script>$(function() { $( document ).tooltip(); });</script>
 
     <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
   </div>
