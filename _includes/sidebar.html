@@ -32,7 +32,7 @@
       <span class="fa-stack fa-lg">
         <i class="fa fa-circle fa-stack-2x"></i>
         <a href="{{ service.url }}"
-        {% if site.data.profile.service.title %}
+        {% if service.title %}
           title="{{ site.data.profile.service.title }}"
         {% endif %}>
         <i class="fa {{ service.icon-name }} fa-stack-1x fa-inverse"></i></a>
