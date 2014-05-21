@@ -29,13 +29,12 @@
     
     <p>Connect</p>
     {% for service in site.data.profile.service %}
-      <span class="fa-stack fa-lg">
-        <i class="fa fa-circle fa-stack-2x"></i>
-        <a href="{{ service.url }}"
+      <span class="fa-stack fa-lg"
         {% if service.title %}
           title="{{ service.title }}"
         {% endif %}>
-        <i class="fa {{ service.icon-name }} fa-stack-1x fa-inverse"></i></a>
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <a href="{{ service.url }}"><i class="fa {{ service.icon-name }} fa-stack-1x fa-inverse"></i></a>
       </span>
     {% endfor %}
     <script>$(function() { $( document ).tooltip(); });</script>
