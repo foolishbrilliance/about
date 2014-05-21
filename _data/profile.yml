@@ -7,7 +7,7 @@ service:
   - name: twitter
     icon-name: fa-twitter
     url: http://twitter.com/joech4n
-  - name: 'google-plus'
+  - name: google-plus
     icon-name: fa-google-plus
     url: https://plus.google.com/u/0/117054244777297268407
   - name: tumblr
