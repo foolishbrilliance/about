@@ -1,5 +1,5 @@
 /**
-* From https://gist.github.com/maxmumford/9832776#file-track-outbound-links-js
+* From http://maxmakedesign.co.uk/posts/40-track-outbound-links-to-new-windows-with-google-analytics
 * Track clicks to a link. If new_window is true the google analytics request
 * will be made synchronously, because browsers block new windows from opening unless
 * it is done DURING an on click event. If new_window is false, the request will
