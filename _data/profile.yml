@@ -25,6 +25,7 @@ service:
   - name: btc
     icon-name: fa-btc
     url: http://go.joechan.us/btc/
+    title: 'Send Joe some Bitcoin'
   - name: 'gliph'
     icon-name: fa-reply
     url: https://gliph.me/CBL
