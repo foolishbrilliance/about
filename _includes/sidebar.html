@@ -27,7 +27,6 @@
       {% endfor %}
     </ul>
     
-    <p>In order of output... to preferred input:</p>
     {% for service in site.data.profile.service %}
       <span class="fa-stack fa-lg"
         {% if service.title %}
@@ -37,6 +36,8 @@
         <a href="{{ service.url }}"><i class="fa {{ service.icon-name }} fa-stack-1x fa-inverse"></i></a>
       </span>
     {% endfor %}
+    <small>Sorted by frequency of output... to preferred input.</small>
+
     <script>$(function() { $( document ).tooltip(); });</script>
 
     <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
