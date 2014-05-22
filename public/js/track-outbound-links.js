@@ -26,6 +26,7 @@ $(document).ready(function(){
   // set google analytics onclick link event on each link with class track
   $('a').each(function(index, element){
     element = $(element);
+    element.attr({ "target":"_blank" }); // Make every link open in a new window
     var link = element.attr('href');
     var new_window = element.attr('target') == '_blank' ? true : false;
     element.click(function(){
