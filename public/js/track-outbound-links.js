@@ -24,7 +24,7 @@ var trackOutboundLink = function(url, new_window) {
 */
 $(document).ready(function(){
   // set google analytics onclick link event on each link with class track
-  $('a.track').each(function(index, element){
+  $('a').each(function(index, element){
     element = $(element);
     var link = element.attr('href');
     var new_window = element.attr('target') == '_blank' ? true : false;
