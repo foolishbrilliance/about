@@ -13,12 +13,14 @@ service:
   - name: tumblr
     icon-name: fa-tumblr
     url: http://blog.joechan.us
+    title: 'Personal Blog'
   - name: linkedin
     icon-name: fa-linkedin
     url: http://www.linkedin.com/in/joesamchan
   - name: blog
     icon-name: fa-rss
     url: http://virtuallyhyper.com
+    title: 'Tech Blog'
   - name: github
     icon-name: fa-github
     url: http://github.com/foolishbrilliance
