@@ -34,7 +34,7 @@
           title="{{ service.title }}"
         {% endif %}>
         <i class="fa fa-circle fa-stack-2x"></i>
-        <a href="{{ service.url }}"><i class="fa {{ service.icon-name }} fa-stack-1x fa-inverse"></i></a>
+        <a href="{{ service.url }}" class="track"><i class="fa {{ service.icon-name }} fa-stack-1x fa-inverse"></i></a>
       </span>
     {% endfor %}
     <script>$(function() { $( document ).tooltip(); });</script>
