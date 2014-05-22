@@ -24,10 +24,6 @@ service:
   - name: github
     icon-name: fa-github
     url: http://github.com/foolishbrilliance
-  - name: 'gliph'
-    icon-name: fa-reply
-    url: https://gliph.me/CBL
-    title: 'Send Joe a message'
   - name: btc
     icon-name: fa-btc
     url: http://go.joechan.us/btc/
