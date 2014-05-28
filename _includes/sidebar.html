@@ -13,7 +13,6 @@
       {% comment %}
         The code below dynamically generates a sidebar nav of pages with
         `layout: page` in the front-matter. See readme for usage.
-      {% endcomment %}
 
       {% assign pages_list = site.pages %}
       {% for node in pages_list %}
@@ -26,6 +25,8 @@
         {% endif %}
       {% endfor %}
     </ul>
+    {% endcomment %}
+
     
     {% for service in site.data.profile.service %}
       <span class="fa-stack fa-lg"
