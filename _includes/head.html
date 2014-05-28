@@ -31,7 +31,6 @@
 
   <!-- d3 -->
   <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
-  <script src="/public/js/d3.layout.cloud.js"></script>
 
   <!-- Google Analytics -->
   <script>
@@ -43,12 +42,15 @@
     ga('require', 'displayfeatures');
     ga('send', 'pageview');
   </script>
-  <script src="/public/js/track-outbound-links.js"></script>
   
   <!-- Twitter feed -->
   <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
   <!-- END LIBRARIES and OTHER IMPORTED STUFF-->
-
+  
+  <!-- JS hosted in this repo -->
+  <script src="public/js/d3.layout.cloud.js"></script>
+  <script src="public/js/track-outbound-links.js"></script>
+  
   <!-- CSS -->
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
   <link rel="stylesheet" href="public/css/poole.css">
