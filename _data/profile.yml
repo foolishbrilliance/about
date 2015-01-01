@@ -23,7 +23,7 @@ service:
     title: 'Tech Blog'
   - name: github
     icon-name: fa-github
-    url: http://github.com/foolishbrilliance
+    url: http://github.com/joech4n
   - name: btc
     icon-name: fa-btc
     url: http://go.joechan.us/btc/
