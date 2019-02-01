@@ -7,9 +7,6 @@ service:
   - name: twitter
     icon-name: fa-twitter
     url: http://twitter.com/joech4n
-  - name: google-plus
-    icon-name: fa-google-plus
-    url: https://plus.google.com/u/0/117054244777297268407
   - name: tumblr
     icon-name: fa-tumblr
     url: http://blog.joechan.us
@@ -17,14 +14,10 @@ service:
   - name: linkedin
     icon-name: fa-linkedin
     url: http://www.linkedin.com/in/joesamchan
-  - name: blog
-    icon-name: fa-rss
-    url: http://virtuallyhyper.com
-    title: 'Tech Blog'
   - name: github
     icon-name: fa-github
     url: http://github.com/joech4n
   - name: btc
     icon-name: fa-btc
-    url: http://go.joechan.us/btc/
+    url: bitcoin:3HrQRKnf7tjyzmn1TfmDnUH8sVR6KdrGg5
     title: 'Send Joe some Bitcoin'
