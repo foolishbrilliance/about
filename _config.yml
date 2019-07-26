@@ -7,8 +7,8 @@ permalink:        pretty
 # Setup
 title:            'Joe Chan'
 tagline:          'All Joe Chan, all the time.'
-description:      '<p>Cloud Support Engineer at <a href="http://aws.amazon.com/">Amazon</a>.</p><p>I like <a href="http://www.apple.com/iphone">tech</a>, <a href="http://bit.ly/league-of-legends">games</a>, playing <a href="https://twitter.com/HistoricalPics/status/464948191063191552/photo/1">basketball</a>, and <a href="http://www.cedarsonbrooklyn.com/">Indian food</a>.</p>'
-url:              http://blog.joechan.us
+description:      'Joe Chan's personal website'
+url:              http://joechan.us
 
 plugins:
   - jekyll-redirect-from
@@ -24,4 +24,4 @@ paginate_path:    "blog/page:num/"
 version:          2.0.0
 
 github:
-  repo:           https://github.com/poole/foolishbriliance
+  repo:           https://github.com/joech4n
