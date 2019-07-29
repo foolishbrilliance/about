@@ -7,7 +7,7 @@ permalink:        pretty
 # Setup
 title:            'Joe Chan'
 tagline:          'All Joe Chan, all the time.'
-description:      'Joe Chan's personal website'
+description:      'Joe Chan\'s personal website'
 url:              http://joechan.us
 
 plugins:
