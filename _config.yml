@@ -1,24 +1,14 @@
-# Permalinks
-permalink:        pretty
-
-# Setup
-title:            'Joe Chan'
-tagline:          'All Joe Chan, all the time.'
-description:      'Joe Chan\'s personal website'
-url:              http://joechan.us
-
-plugins:
+--- 
+author: 
+  name: "Joe Chan"
+  url: "https://twitter.com/joech4n"
+description: ""
+paginate: 5
+paginate_path: "blog/page:num/"
+permalink: pretty
+plugins: 
   - jekyll-redirect-from
-
-author:
-  name:           'Joe Chan'
-  url:            https://twitter.com/joech4n
-
-paginate:         5
-paginate_path:    "blog/page:num/"
-
-# Custom vars
-version:          2.0.0
-
-github:
-  repo:           https://github.com/joech4n
+tagline: "All Joe Chan, all the time."
+title: "Joe Chan"
+url: "http://blog.joechan.us"
+version: "2.0.0"
